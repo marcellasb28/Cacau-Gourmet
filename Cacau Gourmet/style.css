@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DB9E88;
+    margin: 10px 300px;
+}
+
+nav{
+    background-color: #945139;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.partedalogo img{
+    width: 200px;
+    margin-right: 100px;   
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-left: 50px;    
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nomedamarca{
+    color:#111;
+    background-color: #BD6E52;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 30px;
+    width: 100%;
+}
+
+.imagempascoa{
+    width: 500px;
+    margin-right: 50px;
+    padding-left: 45px; 
+}
+
+.botao{
+    margin: 20px 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 30px;
+    border-color: rgb(8, 9, 10);
+    color: #000;
+    background-color:#BD6E52;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comentarios{
+    background-color: #f1dcd4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 25%;
+    height: 50%;
+}
+
+.cliente img{
+    height: 40px;
+    margin: 5px;
+}
+
+.cliente{
+    height: 650px;
+}
+
+.username{
+    padding-left: 100%;
+}
